@@ -1,0 +1,14 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+    <persistence-unit name="EmployeeService" transaction-type="RESOURCE_LOCAL">
+        <class>model.Employee</class>
+        <validation-mode>NONE</validation-mode>
+		<properties>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/Pro_JPA"/>
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.password" value="postgres"/>
+            <!-- enable this property to see SQL and other logging -->
+            <!-- property name="eclipselink.logging.level" value="FINE"/ -->
+        </properties>
+    </persistence-unit>
+</persistence>
