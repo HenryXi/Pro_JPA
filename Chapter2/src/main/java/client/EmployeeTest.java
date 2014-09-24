@@ -15,7 +15,6 @@ public class EmployeeTest {
                 Persistence.createEntityManagerFactory("EmployeeService");
         EntityManager em = emf.createEntityManager();
         EmployeeService service = new EmployeeService(em);
-        
         //  create and persist an employee
         em.getTransaction().begin();
         Employee emp = service.createEmployee(158, "John Doe", 45000);
