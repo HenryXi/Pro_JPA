@@ -10,8 +10,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Chapter2</module>
+        <module>Chapter3</module>
     </modules>
     <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+        </dependency>
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>eclipselink</artifactId>
