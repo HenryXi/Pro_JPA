@@ -12,8 +12,9 @@
 </head>
 <body>
     <h1>Chapter3 index</h1>
-    <a href="<%request.getRequestURI(); %>/HelloServiceServlet01" target="_blank">HelloServiceServlet01</a><br>
+    <a href="<%request.getRequestURI(); %>/HelloServiceServlet" target="_blank">HelloServiceServlet</a><br>
     <a href="<%request.getRequestURI(); %>/LoggerServlet" target="_blank">LoggerServlet</a><br>
-    <a href="<%request.getRequestURI(); %>/HelloServiceServlet" target="_blank">HelloServiceServlet</a>
+    <a href="<%request.getRequestURI(); %>/HelloServiceServlet03" target="_blank">HelloServiceServlet03</a><br>
+    <a href="<%request.getRequestURI(); %>/ShoppingCartServlet" target="_blank">ShoppingCartServlet</a><br>
 </body>
 </html>

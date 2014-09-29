@@ -13,8 +13,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.ejb.EJB;
 
 
-@WebServlet(name="HelloServiceServlet", 
-            urlPatterns="/HelloServiceServlet01")
+@WebServlet(name="HelloServiceServlet",
+            urlPatterns="/HelloServiceServlet")
 public class HelloServiceServlet extends HttpServlet {
 
     private final String TITLE = 

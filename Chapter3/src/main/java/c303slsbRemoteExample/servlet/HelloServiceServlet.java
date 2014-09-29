@@ -36,7 +36,7 @@ public class HelloServiceServlet extends HttpServlet {
             HelloServiceRemote service = null;
             try {
                 service = (HelloServiceRemote)
-                    new InitialContext().lookup("java:comp/env/ejb/HelloService");
+                    new InitialContext().lookup("java:comp/env/ejb/HelloService03");
             } catch (Exception e) {
                 throw new ServletException(e);
             }
@@ -57,7 +57,7 @@ public class HelloServiceServlet extends HttpServlet {
         out.println("<center><h1>" + TITLE + "</h1></center>");
         out.println("<p>" + DESCRIPTION + "</p>");
         out.println("</hr>");
-        out.println("<form action=\"HelloServiceServlet\" method=\"GET\">");
+        out.println("<form action=\"HelloServiceServlet03\" method=\"GET\">");
         out.println("<table><tbody>");
         out.println("<tr><td>Name:</td><td><input type=\"text\" name=\"name\"/></td></tr>");
         out.println("</tbody></table>");
