@@ -16,6 +16,8 @@
     <a href="<%request.getRequestURI(); %>/LoggerServlet" target="_blank">LoggerServlet</a><br>
     <a href="<%request.getRequestURI(); %>/HelloServiceServlet03" target="_blank">HelloServiceServlet03</a><br>
     <a href="<%request.getRequestURI(); %>/ShoppingCartServlet" target="_blank">ShoppingCartServlet</a><br>
-    <a href="<%request.getRequestURI(); %>/OrderBrowserServlet" target="_blank">OrderBrowserServlet(this demo is not available)</a><br>
+    <a href="<%request.getRequestURI(); %>/OrderBrowserServlet" target="_blank">OrderBrowserServlet</a><a style="color: red">(this demo is not available)</a><br>
+    <a href="<%request.getRequestURI(); %>/HitCountServlet" target="_blank">HitCountServlet</a><br>
+    <a href="<%request.getRequestURI(); %>/ReportProcessorServlet" target="_blank">ReportProcessorServlet</a><br>
 </body>
 </html>

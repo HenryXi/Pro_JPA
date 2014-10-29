@@ -69,4 +69,27 @@
         <local>c305sfsbLifecycleExample.model.stateful.OrderBrowser</local>
     </ejb-local-ref>
 
+    <servlet>
+        <servlet-name>ReportProcessorServlet</servlet-name>
+        <servlet-class>c307mdbExample.servlet.ReportProcessorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReportProcessorServlet</servlet-name>
+        <url-pattern>/ReportProcessorServlet</url-pattern>
+    </servlet-mapping>
+
+    <resource-env-ref>
+        <resource-env-ref-name>jms/MyQueue</resource-env-ref-name>
+        <resource-env-ref-type>javax.jms.Queue</resource-env-ref-type>
+        <mapped-name>destinationQueue</mapped-name>
+    </resource-env-ref>
+
+    <resource-ref>
+        <res-ref-name>jms/MyQueueConnectionFactory</res-ref-name>
+        <res-type>javax.jms.QueueConnectionFactory</res-type>
+        <mapped-name>factory</mapped-name>
+    </resource-ref>
+
+
 </web-app>

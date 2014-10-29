@@ -18,6 +18,7 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 @Stateful
+// WARMING:
 // Resource declaration is covered later in the chapter.
 // use of mappedName is vendor specific.  In this case, it is used
 // to specify the JNDI location of the datasource to use.
