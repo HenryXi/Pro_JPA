@@ -11,8 +11,7 @@ import java.util.Collection;
 public class EmployeeTest {
 
     public static void main(String[] args) {
-        EntityManagerFactory emf = 
-                Persistence.createEntityManagerFactory("EmployeeService");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("EmployeeService");
         EntityManager em = emf.createEntityManager();
         EmployeeService service = new EmployeeService(em);
         //  create and persist an employee

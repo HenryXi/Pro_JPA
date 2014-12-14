@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+		  http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+           version="3.0">
+    <servlet>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <servlet-class>c401fieldAccess.servlet.EmployeeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet</servlet-name>
+        <url-pattern>/EmployeeServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet402</servlet-name>
+        <servlet-class>c402propertyAccess.servlet.EmployeeServlet402</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet402</servlet-name>
+        <url-pattern>/EmployeeServlet402</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet403</servlet-name>
+        <servlet-class>c403mixedAccess.servlet.EmployeeServlet403</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet403</servlet-name>
+        <url-pattern>/EmployeeServlet403</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet404</servlet-name>
+        <servlet-class>c404customTableSchema.servlet.EmployeeServlet404</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet404</servlet-name>
+        <url-pattern>/EmployeeServlet404</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet405</servlet-name>
+        <servlet-class>c405customColumnMapping.servlet.EmployeeServlet405</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet405</servlet-name>
+        <url-pattern>/EmployeeServlet405</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet406</servlet-name>
+        <servlet-class>c406lobMapping.servlet.EmployeeServlet406</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet406</servlet-name>
+        <url-pattern>/EmployeeServlet406</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet407</servlet-name>
+        <servlet-class>c407enumMapping.servlet.EmployeeServlet407</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet407</servlet-name>
+        <url-pattern>/EmployeeServlet407</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet408</servlet-name>
+        <servlet-class>c408temporalMapping.servlet.EmployeeServlet408</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet408</servlet-name>
+        <url-pattern>/EmployeeServlet408</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet409</servlet-name>
+        <servlet-class>c409transientMapping.servlet.EmployeeServlet409</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet409</servlet-name>
+        <url-pattern>/EmployeeServlet409</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet410</servlet-name>
+        <servlet-class>c410autoIdGeneration.servlet.EmployeeServlet410</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet410</servlet-name>
+        <url-pattern>/EmployeeServlet410</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet411</servlet-name>
+        <servlet-class>c411tableIdGeneration.servlet.EmployeeServlet411</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet411</servlet-name>
+        <url-pattern>/EmployeeServlet411</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet412</servlet-name>
+        <servlet-class>c412sequenceIdGeneration.servlet.EmployeeServlet412</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet412</servlet-name>
+        <url-pattern>/EmployeeServlet412</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet413</servlet-name>
+        <servlet-class>c413dbIdentityIdGeneration.servlet.EmployeeServlet413</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet413</servlet-name>
+        <url-pattern>/EmployeeServlet413</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet414</servlet-name>
+        <servlet-class>c414manyToOne.servlet.EmployeeServlet414</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet414</servlet-name>
+        <url-pattern>/EmployeeServlet414</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet415</servlet-name>
+        <servlet-class>c415joinColumn.servlet.EmployeeServlet415</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet415</servlet-name>
+        <url-pattern>/EmployeeServlet415</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet416</servlet-name>
+        <servlet-class>c416oneToOneUnidirectional.servlet.EmployeeServlet416</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet416</servlet-name>
+        <url-pattern>/EmployeeServlet416</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet417</servlet-name>
+        <servlet-class>c417oneToOneBidirectional.servlet.EmployeeServlet417</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet417</servlet-name>
+        <url-pattern>/EmployeeServlet417</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet418</servlet-name>
+        <servlet-class>c418oneToOnePkMapping.servlet.EmployeeServlet418</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet418</servlet-name>
+        <url-pattern>/EmployeeServlet418</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet419</servlet-name>
+        <servlet-class>c419oneToManyBidirectional.servlet.EmployeeServlet419</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet419</servlet-name>
+        <url-pattern>/EmployeeServlet419</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet420</servlet-name>
+        <servlet-class>c420oneToManyTargetEntity.servlet.EmployeeServlet420</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet420</servlet-name>
+        <url-pattern>/EmployeeServlet420</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet421</servlet-name>
+        <servlet-class>c421manyToManyBidirectional.servlet.EmployeeServlet421</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet421</servlet-name>
+        <url-pattern>/EmployeeServlet421</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet422</servlet-name>
+        <servlet-class>c422manyToManyJoinTable.servlet.EmployeeServlet422</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet422</servlet-name>
+        <url-pattern>/EmployeeServlet422</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet423</servlet-name>
+        <servlet-class>c423oneToManyUnidirectional.servlet.EmployeeServlet423</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet423</servlet-name>
+        <url-pattern>/EmployeeServlet423</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServlet424</servlet-name>
+        <servlet-class>c424oneToOneLazy.servlet.EmployeeServlet424</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServlet424</servlet-name>
+        <url-pattern>/EmployeeServlet424</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServiceServlet425</servlet-name>
+        <servlet-class>c425embeddedObjects.servlet.EmployeeServiceServlet425</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServiceServlet425</servlet-name>
+        <url-pattern>/EmployeeServiceServlet425</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EmployeeServiceServlet426</servlet-name>
+        <servlet-class>c426sharingEmbeddedObjects.servlet.EmployeeServiceServlet426</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EmployeeServiceServlet426</servlet-name>
+        <url-pattern>/EmployeeServiceServlet426</url-pattern>
+    </servlet-mapping>
+
+</web-app>
